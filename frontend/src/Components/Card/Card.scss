@@ -1,0 +1,57 @@
+.card{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding:70px 200px;
+
+    &__item{
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        &__btn{
+            gap:10px;
+            display: flex;
+            padding:5px 10px 20px 10px;
+
+             & button {
+                width: 100px;
+                padding: 10px;
+                border: none;
+                background-color:black;
+                color: white;
+                cursor: pointer;
+             }
+        }
+
+        &__img{
+            width:400px;
+            height: 400px;
+            
+
+           & img{
+                width: 100%;
+            }
+        }
+
+        &__text{
+            display: flex;
+            padding: 15px;
+            gap: 10px;
+            align-items: center;
+          
+
+        }
+    }
+}
+#inp{
+    margin-top: 50px;
+    width: 500px;
+    padding:10px;
+    margin-left: 400px;
+}
+#sortBtn{
+    width: 150px;
+    padding: 10px;
+}
